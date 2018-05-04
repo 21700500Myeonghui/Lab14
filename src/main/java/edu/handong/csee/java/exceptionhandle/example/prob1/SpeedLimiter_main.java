@@ -14,7 +14,7 @@ public class SpeedLimiter_main//The declaration of class SpeedLimiter_main
 		Scanner keyboard= new Scanner(System.in);//Create an object of the Scanner class
 		System.out.print("Set the speed limit, officer: ");//Outputs the string literal "Set the speed limit, officer: "
 
-		int speedLimit=keyboard.nextInt();//Create integer type local variable speedLimit, Take one inteer from the keyboard and place it in the speedLimit
+		int speedLimit=keyboard.nextInt();//Create integer type local variable speedLimit, Take one integer from the keyboard and place it in the speedLimit
 
 		Random randomGen = new Random();//Create an object of the Random class
 
