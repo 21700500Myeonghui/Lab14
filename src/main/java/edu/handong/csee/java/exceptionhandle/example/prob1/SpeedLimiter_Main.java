@@ -4,7 +4,7 @@ import java.util.Scanner;//importing a package, java.util.Scanner. A package is 
 
 import java.util.Random;//importing a package, java.util.Random. A package is a kind of external objects created by other developer
 
-public class SpeedLimiter_main//The declaration of class SpeedLimiter_main
+public class SpeedLimiter_Main//The declaration of class SpeedLimiter_Main
 {
 
 	public static void main(String[] args)//The declaration of static main method without return value

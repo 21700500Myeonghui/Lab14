@@ -17,7 +17,8 @@ public class In_exception//The declaration of class In_exception
 	
 	public void divide()//The declaration of method divide() without return value
 	{
-		try {
+		try//try block contains code where something could possibly go wrong
+		{
 			Scanner keyboard = new Scanner(System.in);//Create an object of the Scanner class
 			System.out.print("x: ");//Outputs the string literal "x: "
 			x=keyboard.nextInt();// Take one integer from the keyboard and place it in variable x
