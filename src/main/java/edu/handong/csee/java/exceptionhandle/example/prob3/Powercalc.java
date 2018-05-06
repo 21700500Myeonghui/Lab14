@@ -3,7 +3,7 @@ package edu.handong.csee.java.exceptionhandle.example.prob3;//Instructs the Powe
 public class Powercalc//The declaration of class Powercalc
 {
 	
-	public long power(int n, int p) throws Exception//The declaration of method power(), the parameters n and p of integer type, Keyword throws used in method heading to declare an exception, throws indicates that the method may throw exceptions
+	public long power(int n, int p) throws Exception//The declaration of method power(), the parameters are n and p of integer type, Keyword throws used in method heading to declare an exception, throws indicates that the method may throw exceptions
 	{
 		long result=0;//Create long type local variable result, put 0 in result
 		

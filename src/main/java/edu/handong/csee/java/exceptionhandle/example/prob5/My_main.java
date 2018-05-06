@@ -22,7 +22,7 @@ public class My_main//The declaration of class My_main
 		}
 	}
 	
-	static void myTest(String str)throws MyException//The declaration of method myTest(), the parameters str of String type, Keyword throws used in method heading to declare an exception, throws indicates that the method may throw exceptions, the exception is MyException type at this time  
+	static void myTest(String str)throws MyException//The declaration of method myTest(), the parameter is str of String type, Keyword throws used in method heading to declare an exception, throws indicates that the method may throw exceptions, the exception is MyException type at this time  
 	{
 		if(str.equals("null"))//If value of variable str is null
 			throw new MyException("String val is null");//Create an object of the MyException class, calling constructor, the parameter is "String val is null", throw MyException exception
