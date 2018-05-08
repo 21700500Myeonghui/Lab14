@@ -19,9 +19,9 @@ public class SpeedLimiter//The declaration of class SpeedLimiter
 
 		{
 			if(this.speedLimit<this.currentSpeed)//If member variable speedLimit is less than member variable currentSpeed. 'this' is a reference to the object itself
-				{
+			{
 				throw new Exception("Speed Limit "+this.speedLimit+"km exceeded!");//Create an object of the Exception class, the parameter is "Speed Limit 'value of variable speedLimit'km exceeded!", throw Exception exception
-				}
+			}
 			System.out.println("You are a law abiding citizen!");//Outputs the string literal "You are a law abiding citizen!"
 		}
 		catch(Exception e)//Exception handling code, Exception information is passed to object e.
@@ -29,7 +29,7 @@ public class SpeedLimiter//The declaration of class SpeedLimiter
 			System.out.println(e.getMessage());//calling method getMessage() in e and Output return value of method getMessage() in e
 			System.out.println("You are being fined.");//Outputs the string literal "You are fined." 
 		}
-		
+
 		System.out.println("Your current speed: "+this.currentSpeed);//Output "Your current speed 'value of variable currentSpeed'", 'this' is a reference to the object itself
 	}
 

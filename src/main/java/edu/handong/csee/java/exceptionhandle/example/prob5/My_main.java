@@ -17,11 +17,11 @@ public class My_main//The declaration of class My_main
 		}
 		catch(MyException e)//Exception handling code, Exception information is passed to object e.
 		{
-			System.out.println("Inside catch block: "+e);//Outputs "Inside catch block 'return value of e.toString'"
-			
+			System.out.println("Inside catch block: "+e);//Outputs "Inside catch block 'return value of calling method toString() in e'"
+
 		}
 	}
-	
+
 	static void myTest(String str)throws MyException//The declaration of method myTest(), the parameter is str of String type, Keyword throws used in method heading to declare an exception, throws indicates that the method may throw exceptions, the exception is MyException type at this time  
 	{
 		if(str.equals("null"))//If value of variable str is null

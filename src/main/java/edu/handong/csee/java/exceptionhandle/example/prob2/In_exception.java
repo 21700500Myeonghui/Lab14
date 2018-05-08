@@ -9,12 +9,12 @@ public class In_exception//The declaration of class In_exception
 
 	private int x;//Create integer type Instance variable x
 	private int y;//Create integer type Instance variable y
-	
+
 	public In_exception()//Constructor without parameter
 	{
-		
+
 	}
-	
+
 	public void divide()//The declaration of method divide() without return value
 	{
 		try//try block contains code where something could possibly go wrong
@@ -25,7 +25,7 @@ public class In_exception//The declaration of class In_exception
 
 			System.out.print("y: ");//Outputs the string literal "y: "
 			y=keyboard.nextInt();// Take one integer from the keyboard and place it in variable y
-			
+
 			System.out.println(x/y);//Outputs 'x division y'
 		}
 		catch(ArithmeticException e)//Exception handling code, Exception information is passed to object e.
@@ -38,8 +38,8 @@ public class In_exception//The declaration of class In_exception
 		}
 		catch(Exception e)//Exception handling code, Exception information is passed to object e.
 		{
-			System.out.println("Some other exception has occured: "+e.getMessage());//calling method getMessage() in e and Output "Some other exception has occured: 'return value of method getMessage() in e'"
+			System.out.println("Some other exception has occurred: "+e.getMessage());//calling method getMessage() in e and Output "Some other exception has occurred: 'return value of method getMessage() in e'"
 		}
-		
+
 	}
 }

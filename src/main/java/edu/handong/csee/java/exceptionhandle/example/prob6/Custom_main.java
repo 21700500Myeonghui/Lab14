@@ -8,13 +8,13 @@ public class Custom_main//The declaration of class Custom_main
 	public static void main(String[] args)//The declaration of static main method without return value
 	{
 		// TODO Auto-generated method stub
-		
+
 		String name,race;//Create String type local variable name and race
 		int age=0;//Create integer type local variable age, put 0 in age
-		
+
 		Scanner keyboard=new Scanner(System.in);//Create an object of the Scanner class
 		CustomID object= new CustomID();//Instantiate of an CustomID object
-		
+
 		while(true)//Repeat the loop
 		{
 			try//try block contains code where something could possibly go wrong
@@ -45,7 +45,7 @@ public class Custom_main//The declaration of class Custom_main
 				continue;//Immediately move on to the next repetition
 			}
 		}
-		
+
 
 	}
 
