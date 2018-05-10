@@ -2,7 +2,7 @@ package edu.handong.csee.java.exceptionhandle.example.prob6;//Instructs the Cust
 
 import java.util.Scanner;//importing a package, java.util.Scanner. A package is a kind of external objects created by other developer
 
-public class Custom_main//The declaration of class Custom_main
+public class CustomMain//The declaration of class CustomMain
 {
 
 	public static void main(String[] args)//The declaration of static main method without return value

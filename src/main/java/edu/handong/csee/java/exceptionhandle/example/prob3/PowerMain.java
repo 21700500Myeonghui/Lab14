@@ -2,7 +2,7 @@ package edu.handong.csee.java.exceptionhandle.example.prob3;//Instructs the Powe
 
 import java.util.Scanner;//importing a package, java.util.Scanner. A package is a kind of external objects created by other developer
 
-public class Power_main//The declaration of class Power_main
+public class PowerMain//The declaration of class PowerMain
 {
 
 	public static final Powercalc my_calculator = new Powercalc();//Instantiate of an Powercalc object, the modifier is public static final
